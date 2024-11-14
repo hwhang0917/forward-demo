@@ -1,0 +1,7 @@
+spring:
+  application:
+    name:  forward-demo
+param :
+  fileroot : d:\eztalk\webapi\mssql\
+resource:
+  file-location: ${param.fileroot}
