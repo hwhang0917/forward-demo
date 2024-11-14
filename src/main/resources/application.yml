@@ -1,9 +1,9 @@
 spring:
   application:
-    name:  forward-demo
+    name: forward-demo
 server:
   port: 3000
-param :
-  fileroot : d:\eztalk\webapi\mssql\
+param:
+  fileroot: d:\eztalk\webapi\mssql\
 resource:
   file-location: ${param.fileroot}
